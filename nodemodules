@@ -1,0 +1,8 @@
+let Client = require('node-rest-client').Client;
+
+let client = new Client();
+client.get("https://620c382eb573632593898061.mockapi.io/apiparapaginaweb_1",function (datos, respuesta){
+    console.log(datos);
+    console.log();
+    console.log(json.stringify(datos));
+});
